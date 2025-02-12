@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     vue(), 
   ],
+  base: process.env.NODE_ENV === 'production' ? '/' + process.env.GITHUB_REPOSITORY?.split('/')[1] : '/',
 })
