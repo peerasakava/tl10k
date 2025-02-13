@@ -7,26 +7,32 @@ import RiskFactorCard from './components/RiskFactorCard.vue'
 import FuturePlanCard from './components/FuturePlanCard.vue'
 import SectionContainer from './components/SectionContainer.vue'
 
+// Import all company data files
 import AAPL from './contents/AAPL.json'
+import AMAL from './contents/AMAL.json'
+import ATGE from './contents/ATGE.json'
+import CPRX from './contents/CPRX.json'
 import FIX from './contents/FIX.json'
+import IDCC from './contents/IDCC.json'
+import JPM from './contents/JPM.json'
 import LULU from './contents/LULU.json'
+import META from './contents/META.json'
 import MSFT from './contents/MSFT.json'
 import NFLX from './contents/NFLX.json'
 import RL from './contents/RL.json'
+import TSLA from './contents/TSLA.json'
 import TTEK from './contents/TTEK.json'
 
-const companies = ['AAPL', 'FIX', 'LULU', 'MSFT', 'NFLX', 'RL', 'TTEK']
+const companies = [
+  'AAPL', 'AMAL', 'ATGE', 'CPRX', 'FIX', 'IDCC', 'JPM',
+  'LULU', 'META', 'MSFT', 'NFLX', 'RL', 'TSLA', 'TTEK'
+]
 const selectedCompany = ref(null)
 const companyData = ref(null)
 
 const companyDataMap = {
-  AAPL,
-  FIX,
-  LULU,
-  MSFT,
-  NFLX,
-  RL,
-  TTEK
+  AAPL, AMAL, ATGE, CPRX, FIX, IDCC, JPM,
+  LULU, META, MSFT, NFLX, RL, TSLA, TTEK
 }
 
 const loadCompanyData = (symbol) => {
@@ -48,20 +54,21 @@ onMounted(() => {
       <div class="container mx-auto px-4 py-4">
         <div class="flex items-center justify-between">
           <h1 class="text-2xl font-bold text-white">tl10k</h1>
-          <div class="flex flex-wrap gap-2 justify-end">
-            <button
-              v-for="company in companies"
-              :key="company"
-              @click="loadCompanyData(company)"
-              :class="[
-                'px-4 py-2 rounded-lg font-semibold transition-all duration-200 hover:shadow-md',
-                selectedCompany === company
-                  ? 'bg-blue-900 text-white shadow-md transform scale-105'
-                  : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white border border-gray-700'
-              ]"
+          <div class="relative w-48">
+            <select
+              v-model="selectedCompany"
+              @change="loadCompanyData($event.target.value)"
+              class="w-full px-4 py-2 bg-gray-800 text-white rounded-lg appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-700"
             >
-              {{ company }}
-            </button>
+              <option v-for="company in companies" :key="company" :value="company">
+                {{ company }}
+              </option>
+            </select>
+            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+              <svg class="w-4 h-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -69,13 +76,13 @@ onMounted(() => {
 
     <div class="container mx-auto px-4 py-8 max-w-7xl">
       <div v-if="companyData">
-        <div class="flex justify-between items-center mb-8">
-          <h1 class="text-4xl font-bold text-gray-900">{{ companyData.symbol }} - Company Information</h1>
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-8 mb-8">
+          <h1 class="text-3xl sm:text-4xl font-bold text-gray-900">{{ companyData.symbol }} - Company Information</h1>
           <a 
             :href="companyData.filing_url" 
             target="_blank" 
             rel="noopener noreferrer" 
-            class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-semibold flex items-center gap-2"
+            class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-semibold flex items-center gap-2 whitespace-nowrap"
           >
             <span>Read Full 10-K</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

@@ -2,190 +2,190 @@
   "symbol": "NFLX",
   "filing_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
   "business_overview": {
-    "business_description": "Netflix is a leading entertainment service offering TV series, films, and games to approximately 302 million paid members in over 190 countries. Members can enjoy content across various genres and languages, with the flexibility to play, pause, resume, and change their plans at any time.",
-    "revenue_model": "Netflix primarily generates revenue from monthly membership fees for streaming content. They offer various subscription plans with different prices and features. Additional revenue comes from advertisements, consumer products, and live events, although these sources are not a material component of their overall revenue.",
-    "strategic_direction": "Netflix's core strategy is to grow its business globally while maintaining its operating margin target. This involves continuously improving member experience by offering compelling content, providing a range of pricing options (including ad-supported plans), driving conversation around their content, and enhancing the user interface to facilitate content discovery.",
-    "long_term_goals": "Netflix aims to attract and retain a diverse employee base, foster a culturally diverse, inclusive, and equitable work environment, and improve its company culture to meet the evolving needs of the business to create a better experience for its members, employees, creators, and partners. They also focus on strategic global content investments, particularly in original content."
+    "business_description": "Netflix is a leading entertainment service providing TV series, films, and games to approximately 302 million paid members in over 190 countries. Members can watch content across various genres and languages, anytime, anywhere.",
+    "revenue_model": "The company primarily generates revenue from monthly membership fees for streaming content. They offer a range of pricing plans, including an ad-supported subscription. Netflix also earns revenue from advertisements, consumer products, live events, and other sources, but these are not a material component of their streaming revenues.",
+    "strategic_direction": "Netflix's core strategy is to grow its business globally while maintaining its operating margin target. They aim to improve member experience by offering compelling content, providing a range of pricing plans, enhancing the user interface, and driving conversation around their content.",
+    "long_term_goals": "Netflix seeks to continually improve its service by enhancing both its technology and content offerings to \"win moments of truth\" with consumers, ensuring they choose Netflix during their leisure time. They also aim to foster a culturally diverse, inclusive, and equitable work environment."
   },
   "products_and_services": [
     {
       "product_service_name": "Streaming Content",
-      "summary": "Netflix offers streaming of TV series, films, and games to paid members.",
-      "details": "Netflix's core offering is streaming entertainment content. Members pay a monthly fee for access to a wide variety of TV series, films, and games across many genres and languages. Members can watch as much as they want, anytime, anywhere, and can change their plans, including ad-supported options, at any time. Growth comes from compelling content that attracts and retains members."
+      "summary": "Subscription-based streaming service offering TV series, films, and games across various genres and languages to paid members globally.",
+      "details": "Netflix's core offering is its streaming service, providing members with access to a wide range of entertainment video content, including original productions and licensed content. Members pay a monthly fee for the ability to stream this content on internet-connected devices. The company aims to improve the member experience through compelling content and a user-friendly interface."
     },
     {
-      "product_service_name": "Subscription Plans",
-      "summary": "Netflix provides a range of pricing plans, including ad-supported options.",
-      "details": "Netflix offers various subscription plans to cater to diverse consumer needs. These plans include options with and without advertisements, allowing users to choose a plan that aligns with their budget and viewing preferences. Revenue is generated primarily from these monthly membership fees."
+      "product_service_name": "Ad-Supported Subscription Plan",
+      "summary": "A lower-priced subscription option that includes advertisements, alongside access to Netflix's streaming content library.",
+      "details": "To cater to a broader range of consumer needs and pricing sensitivities, Netflix offers an ad-supported subscription plan. This plan allows users to access Netflix's content at a reduced monthly fee, in exchange for viewing advertisements during their streaming experience. This option broadens accessibility to potential new members."
     },
     {
-      "product_service_name": "User Interface (UI)",
-      "summary": "Netflix continuously enhances its UI to improve content discoverability.",
-      "details": "Netflix invests in improving its user interface to help members easily find content they will enjoy. This includes personalized recommendations, intuitive navigation, and features that enhance the overall viewing experience. The goal is to improve engagement and satisfaction, leading to better member retention and growth."
-    },
-    {
-      "product_service_name": "Games",
-      "summary": "Netflix includes games as part of its content offerings.",
-      "details": "Netflix has expanded its content library beyond TV series and films to include games. These games are available to members as part of their subscription, providing additional entertainment options and increasing the value proposition of a Netflix membership. This helps to compete for consumer leisure time."
+      "product_service_name": "Pricing plans",
+      "summary": "Multiple tiers of pricing plans to meet a variety of consumer needs",
+      "details": "Netflix offers a range of pricing plans to increase accessibility depending on consumer needs. This can include different video resolutions, number of devices, and ad-free plans."
     }
   ],
   "risk_factors": [
     {
-      "risk_factor_title": "Attracting and Retaining Members",
-      "summary": "Failure to attract/retain members due to competition, content dissatisfaction, pricing, or economic conditions could hurt growth, margins, and financial results.",
-      "details": "Netflix needs to continually add new members. Competition from other entertainment (including piracy), content quality, pricing, and economic factors all impact membership. Fixed content costs mean failure to grow as expected could hurt margins. Successfully competing and providing compelling content is essential. "
+      "risk_factor_title": "Failure to Attract and Retain Members",
+      "summary": "Inability to grow/retain membership due to competition, content dissatisfaction, pricing, or economic conditions could hurt financials, given fixed content costs.",
+      "details": "Netflix's success relies on adding and retaining paying members. Competition from other entertainment options, including piracy, and member churn due to content, pricing, or service issues pose a constant threat. Adverse economic conditions exacerbate this risk. Failure to grow as expected impacts margins and liquidity due to largely fixed content costs. Inability to compete effectively will adversely affect the business."
+    },
+    {
+      "risk_factor_title": "Cybersecurity Risks and Data Breaches",
+      "summary": "Service disruptions or data breaches due to cyberattacks could significantly damage reputation, cause data/IP loss, and trigger financial and legal repercussions.",
+      "details": "Netflix's computer systems are vulnerable to cyber threats, potentially leading to service outages, data theft, and intellectual property loss. Unauthorized access to member data triggers legal and regulatory scrutiny, reputational damage, and financial loss. Reliance on third-party services (like AWS) amplifies this risk. Prevention and mitigation efforts are costly and may not be fully effective, as cyber threats constantly evolve."
+    },
+    {
+      "risk_factor_title": "Content Licensing and Production Risks",
+      "summary": "Failure to secure content licenses on acceptable terms or production issues with original programming could negatively impact member acquisition and retention.",
+      "details": "Netflix depends on licensing content from studios and producing its own original programming. Rising content costs due to increased competition can impact profitability. Content providers may be unwilling to license content. Production delays/failures and potential liability related to content (e.g., copyright infringement) could also affect its business. Content withdrawals and inability to secure talent and labor agreements also pose significant risks."
     },
     {
       "risk_factor_title": "Competition in Entertainment Video",
-      "summary": "Intense competition from traditional and internet-based entertainment providers, including piracy, could reduce market share, revenue, and profitability.",
-      "details": "The entertainment market is intensely competitive. Netflix faces competition from broadcasters, cable networks, streaming services, and piracy. Competitors may have better content, pricing, or resources. New technologies like generative AI could also shift the competitive landscape. Failure to compete effectively would harm the business."
+      "summary": "Intense competition from traditional and internet-based entertainment providers, including piracy, could erode market share, revenues, and profitability.",
+      "details": "The entertainment market is fiercely competitive. Traditional broadcasters, cable operators, e-commerce giants, and piracy services are all vying for viewers. Competitors may have greater resources or more compelling content. New technologies, like AI, could shift the competitive landscape. Failure to maintain a competitive edge in content, pricing, and service could hurt Netflix\u2019s ability to grow or maintain its position."
     },
     {
-      "risk_factor_title": "Content-Related Risks and Liability",
-      "summary": "Unforeseen costs, potential liability, or failure to meet expectations regarding content acquired, produced, licensed or distributed could harm the business.",
-      "details": "As a content producer and distributor, Netflix faces liability for negligence, infringement, or other claims. Original programming investments may underperform. Production involves cost and completion risks and relationships with 3rd parties. Failure to anticipate costs or mitigate risks related to content could adversely impact the business."
-    },
-    {
-      "risk_factor_title": "Cybersecurity and System Disruptions",
-      "summary": "Disruptions or unauthorized access to computer systems could lead to data loss/theft, service degradation, and reputational damage, harming the business.",
-      "details": "Netflix's systems and those of its third-party providers face constant cybersecurity threats. Attacks could disrupt service, lead to data breaches, or theft of intellectual property. Prevention is costly and may not be fully effective. Disruptions or data breaches could damage reputation, result in member loss and adversely affect results of operations."
-    },
-    {
-      "risk_factor_title": "Content Licensing Risks",
-      "summary": "Refusal by studios/rights holders to license content on acceptable terms, or content withdrawal, could impair service quality and increase costs.",
-      "details": "Netflix's success depends on securing content rights. As content providers launch own streaming services, they may be unwilling to license content. License costs are increasing. Failure to maintain a compelling mix of content could impact member acquisition and retention. Disputes with collection management organizations (CMOs) could also lead to litigation or content unavailability."
+      "risk_factor_title": "Long-Term Content Commitments",
+      "summary": "Fixed content costs limit flexibility. If content isn't well-received, or revenue falls short, margins are pressured. Upfront payments exacerbate liquidity risk.",
+      "details": "Netflix's multi-year content commitments create financial obligations that are largely fixed. This reduces flexibility if revenue growth slows or content underperforms. Upfront payments, especially for original content, may strain liquidity. Failure to adapt content offerings to market demand can hurt member acquisition and retention."
     },
     {
       "risk_factor_title": "International Operations Risks",
-      "summary": "International operations expose the company to economic, political, regulatory, and currency risks that could harm the business.",
-      "details": "Operating internationally involves adapting to cultural differences, managing foreign operations, and complying with local laws. Risks include political instability, corruption, currency fluctuations, censorship, and data protection regulations. Failure to manage these risks could harm international operations."
+      "summary": "Operating internationally subjects Netflix to diverse economic, political, regulatory, and currency risks, potentially impacting business and results.",
+      "details": "Expansion into international markets introduces complex risks, including cultural differences, regulatory hurdles, political instability, compliance with local laws, and currency fluctuations. Censorship requirements, taxation issues, and local content quotas can also negatively impact operations and profitability. Failure to manage these risks could harm Netflix\u2019s international business."
     },
     {
-      "risk_factor_title": "Debt and Content Commitments",
-      "summary": "Substantial debt and long-term content commitments could limit financial flexibility and the ability to react to changing market conditions.",
-      "details": "Netflix has substantial debt and streaming content obligations. If the company cannot service its debt, it may need to refinance or restructure, which could be costly. Long-term content commitments limit flexibility to respond to changes in the business. Failure to meet revenue expectations could strain liquidity."
-    },
-    {
-      "risk_factor_title": "Privacy Concerns",
-      "summary": "Privacy concerns and regulations could limit the ability to collect/use member data, and data breaches could harm reputation and result in legal claims.",
-      "details": "Netflix collects member data and is subject to privacy laws like GDPR and CPRA. Failure to comply or a perceived violation could lead to investigations and penalties. Data breaches could harm reputation and lead to legal claims. Increased regulation of data practices could hurt the business."
+      "risk_factor_title": "Changes in Internet Regulations",
+      "summary": "Changes in internet regulations, including net neutrality, could increase costs, reduce demand, and require altering business practices.",
+      "details": "Adoption or changes in internet regulations, like net neutrality rules, could negatively affect Netflix's business. Discriminatory practices by network operators, increased network access fees, or taxes could increase costs and decrease demand for the service. Compliance with new regulations or interpretations could require altering the business model."
     },
     {
       "risk_factor_title": "Reliance on Partners",
-      "summary": "Dependence on partners for device availability and payment processing poses risks to member access and revenue streams.",
-      "details": "Netflix relies on partners for streaming content to devices. Unfavorable terms or discontinuation of service by partners could harm business. Payment processing relies on internal and 3rd party systems. Changes in payment fees, fraudulent use or system failures could adversely impact revenue and operations."
+      "summary": "Dependence on device partners may make the service unavailable if agreements are not renewed or if the technology is outdated.",
+      "details": "Availability on various internet-connected devices depends on partnerships. Failure to maintain existing partnerships or create new ones can negatively impact growth. If partners don't provide suitable access or update devices, member retention could also be affected. Dissatisfaction could result in claims against the business."
     },
     {
-      "risk_factor_title": "Government Regulations",
-      "summary": "Changes in internet or other regulations could require changes in business practices and increase operating expenses.",
-      "details": "Adoption or modification of internet related laws could adversely affect business. As Netflix gains traction internationally, governments introduce/extend regulations, like broadcast media and tax. New/changing laws or interpretations could increase expenses or alter business model."
+      "risk_factor_title": "Taxation Risks",
+      "summary": "Netflix is subject to tax risks in many jurisdictions; changes in tax laws, challenges by tax authorities could adversely impact financials.",
+      "details": "As a multinational company, Netflix faces tax-related risks, as tax laws are regularly examined and evaluated globally. Judgments in determining global provisions for income taxes, deferred taxes and other tax liabilities could impact the organization. New laws could increase obligations in areas where they do business, affecting their financial condition."
+    },
+    {
+      "risk_factor_title": "Payment Processing Risk",
+      "summary": "Any disruption in payment processing, increases in fees, or fraud could harm the business by impacting revenue and increasing expenses.",
+      "details": "Netflix relies on various payment methods, making it vulnerable to processing disruptions, fee increases, and fraud. Changes in payment ecosystems, loss of payment partners, or failures in payment systems could adversely affect revenue. Fraudulent use of payment methods could impact results and create negative consumer perceptions."
     },
     {
       "risk_factor_title": "Intellectual Property Claims",
-      "summary": "Intellectual property claims against us could be costly and result in the loss of significant rights.",
-      "details": "Third parties may allege that Netflix has infringed or otherwise violated their intellectual property rights. Defending intellectual property claims results in costly litigation and diversion of management. May result in inability to use current technology and products or market the service."
+      "summary": "Intellectual property claims from third parties could result in costly litigation, loss of rights, and content unavailability.",
+      "details": "Netflix relies on third-party IP and faces potential claims of infringement. Defending against such claims is expensive and may result in being unable to use current technology, removing content, or developing non-infringing technology. This could affect business and competitive position."
     },
     {
-      "risk_factor_title": "Managing Change and Growth",
-      "summary": "Failure to manage expansion, technology, and international operations could adversely affect the business.",
-      "details": "Netflix is expanding operations, scaling services, and managing business internationally. Failure to manage the growing complexity of scaling services/introducing new features-such as an ad-supported plan and live programming-could adversely affect business."
-    },
-    {
-      "risk_factor_title": "Reputation Risk",
-      "summary": "Failure to maintain a positive reputation can impact member acquisition/retention, regulatory scrutiny & operating results.",
-      "details": "A positive reputation is crucial. Poor content perception or controversial content risks retaliatory action from regulators and potential bans leading to boycotts, harming the business. Inability to meet regulatory/investor ESG expectations can damage reputation."
-    },
-    {
-      "risk_factor_title": "Taxation Related Risks",
-      "summary": "Subject to a number of risks related to taxation in multiple jurisidictions.",
-      "details": "A U.S. based multi-national company subject to tax in multiple U.S. and foreign tax jurisdictions. Face periodic examinations of tax returns by the IRS, state, local and foreign tax authorities. New tax laws or challenges to where profits are currently recoginized could impact business."
-    },
-    {
-      "risk_factor_title": "Reliance on Amazon Web Services",
-      "summary": "Any disruption or interference with the operation of Amazon Web Services would impact operations.",
-      "details": "Software and computer systems are structured to utilize data processing, storage capabilites and services provided by AWS. Heavily reliant on this service. Inability to switch AWS operations to another cloud provider would impact business."
-    },
-    {
-      "risk_factor_title": "Technology Failures",
-      "summary": "If technology used in operating the company failed, was unavailable, or did not operate to expectations, negatively impacts the business.",
-      "details": "Proprietary and third-party tech used to recommend content and enable efficient delivery. Internet Service Providers (\u201cISPs\u201d) not interconnecting with their CDN, difficulties in operation or any harm to members' devices could adversely affect business."
-    },
-    {
-      "risk_factor_title": "Network Operator Practices",
-      "summary": "Changes in network operator practices on accessing data could negatively affect our business.",
-      "details": "Relies upon internet access. If network operators block, restrict or otherwise impair access to the service over their networks, service and business could be affected. Implementation of usage based pricing or monetization could impact business."
+      "risk_factor_title": "Our Advertising Offering is New",
+      "summary": "The new advertising offering is subject to risks that may impact the business, including failure to attract advertisers, member engagement and dissatisfaction.",
+      "details": "The business has limited experience with advertising and faces risks generating advertising revenue. The ability to generate advertising revenue will depend on Netflix's ability to attract and retain advertisers, fluctuations in membership, ad quality and more, which may adversely affect the business."
     },
     {
       "risk_factor_title": "Loss of Key Employees",
-      "summary": "Losing key employees or failing to hire qualified staff can disrupt operations and harm results.",
-      "details": "Success depends on senior management, executive team and key staff.  Failure to adapt business practices to industry expectations, implement succession plans or recruit and retain personnel may be disrupted, affect results of operations."
+      "summary": "Losing key personnel or failing to attract/retain qualified employees could disrupt operations and negatively affect results.",
+      "details": "Netflix relies heavily on its senior management and skilled personnel. Competition for talent is intense. High turnover, failure to recruit and retain employees, or failure to maintain a company culture may disrupt operations and impact results."
     },
     {
-      "risk_factor_title": "Legal Proceedings",
-      "summary": "Engaged in litigation, which cause unforeseen expenses.",
-      "details": "Subject to litigation or claims that could affect business operations and financial positions including copyright claims, patent infringement and tax. Also receive inquires from government authorities which are expensive and time consuming and distracting."
+      "risk_factor_title": "Failure to Maintain a Positive Reputation",
+      "summary": "Damage to reputation due to content quality, controversial content, or ESG concerns could impact member acquisition and retention.",
+      "details": "A positive reputation is crucial for attracting and retaining members. Poor content, offensive material, or regulatory scrutiny or failure to meet regulatory standards could harm reputation. Negative reactions to government actions or ineffective marketing can also damage reputation and affect business."
     },
     {
-      "risk_factor_title": "Advertising Offering Risks",
-      "summary": "Limited experience in advertising which may adversely affect the business.",
-      "details": "Ability to generate revenue depends on attracting and retaining advertisers and ability to effectively compete for advertising spend. Need availability, accuracy and utility of measurement solutions and must develop advertising technology to support driving value."
-    },
-    {
-      "risk_factor_title": "Stock Price Volatility",
-      "summary": "Stock price is volatile and can fluctuate significantly due to various factors.",
-      "details": "Price which common stock has traded has fluctuated. Volatility comes from variations in operating results, competition, market volatility and the operating results of competitors."
-    },
-    {
-      "risk_factor_title": "Strategic Acquisitions and investments",
-      "summary": "Costs and challenges with acquisitions and investments can adversely impact the business.",
-      "details": "Acquire/invest in businesses, content, and technologies that support the business. Could involve difficulty integrating solutions/personnel, inheriting liabilities and facing litigation and failing to realize benefits or diverting managements attention hindering operation."
+      "risk_factor_title": "Reliance on Amazon Web Services",
+      "summary": "Any disruption or interference with dependence on Amazon Web Services would impact operations and be adverse to the business.",
+      "details": "The business utilizes Amazon Web Services to operate certain aspects of the service. Because of this partnership, any commercial disputes related to or interference with the use of AWS would impact business."
     },
     {
       "risk_factor_title": "Labor Disputes",
-      "summary": "Labor disputes can lead to work stoppages, delays in content, reduce margins and affect bussiness.",
-      "details": "Labor disputes may have an adverse effect on the Company\u2019s business by causing delays in prodution, added costs or by reducing profit margins."
+      "summary": "Labor disputes may cause delay in production or higher costs.",
+      "details": "The business engages writers, directors, actors and other talented individuals who are subject to collective bargaining. Expiring agreements may be renewed on terms that are unfavorable or result in strikes, halted productions or delays in providing new content."
     },
     {
-      "risk_factor_title": "Charter Document Provisions",
-      "summary": "Provisions in the charter document and state laws, discourage takeovers.",
-      "details": "Charter documents may discourage, delay or prevent a merger or acuisition including authorization of board of directors, provisions for a classified board of directors, and requiring advance notice requirement"
+      "risk_factor_title": "Volatility in Stock Price",
+      "summary": "Stock price may fluctuate and investors may not be able to resell their shares at or above the original purchase price",
+      "details": "The price at which the business' common stock has traded has fluctuated. The price may continue to be volatile due to events that are beyond their control. As a result, investors in their common stock may not be able to resell their shares at or above their original purchase price"
     },
     {
-      "risk_factor_title": "Financial Result Judgments",
-      "summary": "Preparing and forecasting financial results requires judgments and estimates which may differ materially from actual results.",
-      "details": "Forecasts of revenues, margins and other financial information differ and consumer adoption can vary. Preperation of statements require estimate and assumtions that affect the reported amounts assets and liabilities, disclosures aout contigent liabilities and reported revenues during periods."
+      "risk_factor_title": "Managing Change and Growth",
+      "summary": "Failure to manage growth scaling streaming service, studio operations and international expansion could adversely affect the business.",
+      "details": "Netflix is expanding its operations, including scaling its streaming service, studio operations, and international efforts. Managing this growing complexity requires significant resources and attention. Integration challenges, unknown liabilities, and reputational concerns could arise. Failure to manage this growth could adversely impact the business."
+    },
+    {
+      "risk_factor_title": "Strategic Acquisitions and Investments",
+      "summary": "Strategic Acquisitions may bring integration difficulty personnel disruption and failure to realize expected benefits to the business.",
+      "details": "From time to time, Netflix invests in businesses that support their own. RISKs: Difficulty of integrating solutions, operations, and personnel; inheriting liabilities and exposure to litigation; failure to realize anticipated benefits and expected synergies; and diversion of management\u2019s time and attention, among other acquisition-related risks."
+    },
+    {
+      "risk_factor_title": "Technology Failures",
+      "summary": "If the technology used fails, is unavailable, or does not perform up to expectations, it could affect the business and operations.",
+      "details": "The business utilizes proprietary and third-party technology which includes technology they have developed to recommend content, manage operations and deliver fast and efficient content. If their own or third-party technology fails, it could affect the business."
+    },
+    {
+      "risk_factor_title": "Privacy Concerns",
+      "summary": "If Netflix has privacy concerns or discloses member information, it could adversely affect the business negatively.",
+      "details": "Netflix collects and utilizes information from third parties and are subject to laws and regulations relating to privacy. If they violate privacy regulations, it have led and could in the future lead to investigations, claims, and proceedings by governmental entities and private parties. Other privacy violations include disclosing consumer data in an objectionable manner."
+    },
+    {
+      "risk_factor_title": "Additional Capital",
+      "summary": "If Netflix seeks additional capital through equity, equity-linked, or debt securities, stockholders could experience dilution.",
+      "details": "If additional capital is needed, Netflix may seek to obtain additional capital, either through equity, equity-linked or debt securities. Those securities may have rights, preferences or privileges senior to the rights of their common stock, and their stockholders may experience dilution."
+    },
+    {
+      "risk_factor_title": "Substantial Indebtedness",
+      "summary": "Substantial Indebtedness may affect our financial position by using cash flow to make debt service payments.",
+      "details": "Substantial indebtedness may require the use of a substantial portion of our cash flow from operations to make debt service payments when due, limit our ability to borrow funds and plan for changes."
+    },
+    {
+      "risk_factor_title": "Charter Documents and Delaware Law",
+      "summary": "Provisions in our charter documents and under Delaware law could discourage a takeover that stockholders may consider favorable.",
+      "details": "Charter documents may discourage acquisition that a stockholder may consider favorable because they: authorize our board of directors, without stockholder approval, to issue up to 10,000,000 shares of undesignated preferred stock; provide for a classified board of directors until our annual meeting of stockholders to be held in 2025; prohibit our stockholders from acting by written consent."
+    },
+    {
+      "risk_factor_title": "Forecasting Financial Results",
+      "summary": "When preparing our financial results, we have to make judgements and estimates which may differ materially from actual results",
+      "details": "Estimates of revenues, operating margins, net income and financial data may differ materially from actual results given the dynamic nature of the business. Preparation of consolidated financial statements also requires management to make estimates and assumptions."
+    },
+    {
+      "risk_factor_title": "Handling and Charging for Data Access",
+      "summary": "Changes in how network operators handle and charge for access to data that travel across their networks could impair the business.",
+      "details": "Reliance on ability for consumers to access service through the internet is important. If network operators block, restrict or impair access to operations could be negatively affected. Network operators could also impact business negatively."
     }
   ],
   "strategies_and_future_plans": [
     {
       "future_strategy_focus_headline": "Global Membership Growth",
-      "summary": "Netflix's core plan revolves around global expansion within its operating margin target. Central will be improving member experience with compelling content, diverse pricing (including ad-supported), and enhanced user interface.",
+      "summary": "Netflix's core strategy remains global growth within operating margin targets. Enhancing member experience via compelling content, diverse pricing, and improved UI are key to attracting & retaining subscribers. They aim to 'win moments of truth'.",
       "management_quote": "Our core strategy is to grow our business globally within the parameters of our operating margin target. We strive to continuously improve our members' experience..."
     },
     {
-      "future_strategy_focus_headline": "Content Differentiation",
-      "summary": "Netflix will focus on original and exclusive programming to distinguish itself from competitors. Success depends on managing content costs, viewership, and popularity effectively. They are also expanding into games and live programming.",
-      "management_quote": "We believe that original and exclusive programming can help differentiate our service from other offerings, enhance our brand and otherwise attract and retain members."
+      "future_strategy_focus_headline": "Content Investment & Optimization",
+      "summary": "Netflix plans to continue investing significantly in global content, especially original productions. Prioritizing a compelling content mix, cost efficiency, and securing exclusive rights while carefully selecting titles for renewal are paramount.",
+      "management_quote": "We expect to continue to significantly invest in global content, particularly in original content, which will impact our liquidity."
     },
     {
-      "future_strategy_focus_headline": "Technology and Service Improvement",
-      "summary": "Netflix is committed to continuously improving its technology and service. This involves enhancements to the user interface, recommendation algorithms, and efficient content delivery through its Open Connect network.",
-      "management_quote": "In attempting to win these moments of truth with our members, we seek to continually improve our service, including both our technology and our content offerings."
-    },
-    {
-      "future_strategy_focus_headline": "Advertising Revenue Expansion",
-      "summary": "Netflix aims to grow its advertising revenue stream, it will depend on attracting advertisers, member engagement, quality of ads, and effective ad measurement. It has limited advertising experience and operating history.",
+      "future_strategy_focus_headline": "Advertising Revenue Growth",
+      "summary": "Netflix aims to grow advertising revenue by attracting advertisers, increasing member engagement, and improving ad quality. Success depends on effective analytics, competitive advertising strategies, and adapting to regulatory changes.",
       "management_quote": "We have limited experience and operating history offering advertising on our service, and our advertising revenue may not grow as we expect."
     },
     {
-      "future_strategy_focus_headline": "Strategic Acquisitions and Investments",
-      "summary": "Netflix intends to selectively acquire or invest in businesses, content, and technologies that support its core business objectives, but recognizes the integration/operational challenges.",
-      "management_quote": "From time to time, we acquire or invest in businesses, content, and technologies that support our business...We may not be successful in overcoming such risks..."
+      "future_strategy_focus_headline": "Strategic Partnerships & Device Accessibility",
+      "summary": "Netflix will broaden relationships with existing partners & increase streaming capabilities across platforms. Maintaining & forming new partnerships is key to delivering content to members, but faces technological & business hurdles.",
+      "management_quote": "We intend to continue to broaden our relationships with existing partners and to increase our capability to stream content and offer games to other platforms and partners over time."
     },
     {
       "future_strategy_focus_headline": "Human Capital Management",
-      "summary": "Prioritizing a dynamic and diverse company culture and talent acquisition by ensuring inclusivity in hiring and promoting leadership development for adapting to the ever-changing business needs.",
-      "management_quote": "We view our employees and our culture as key to our success...As our business grows and changes, we seek to improve our culture to meet the new needs of our business."
+      "summary": "Netflix prioritizes its employees & culture, aiming to attract & retain diverse talent. They focus on fostering an inclusive environment & providing competitive compensation. Enhancing the company culture remains a priority.",
+      "management_quote": "We view our employees and our culture as key to our success...We aim to attract and retain great people - representing a diverse array of perspectives and skills - to work together as a dream team."
     }
+  ],
+  "revenues": [
+    "|                                  | 2024 (in thousands) |\n| :------------------------------- | :------------------ |\n| Streaming revenues               | $12,387,035         |\n| Paid net membership additions    | 12,320              |\n| Paid memberships at end of period | 101,133             |\n",
+    "| Revenues            | 2024         |\n| ------------------- | ----------- |\n| Revenues            | $39,000,966 |\n| Cost of revenues    | $21,038,464 |\n| Sales and marketing | $2,917,554  |\n| Technology and development | $2,925,295  |\n| General and administrative | $1,702,039  |\n| Operating income        | $10,417,614 |\n| Interest expense      | ($718,733)  |\n| Interest and other income (expense)       | $266,776   |\n| Income before income taxes        | $9,965,657   |\n| Provision for income taxes          | ($1,254,026)   |\n| Net income   | $8,711,631   |\n",
+    "|                               | 2024 (in thousands) |\n| :---------------------------- | :------------------ |\n| Streaming revenues            | $17,359,369          |\n| Paid net membership additions | 9,497               |\n| Paid memberships at end of period | 89,625               |"
   ]
 }
