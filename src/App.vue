@@ -5,6 +5,7 @@ import BusinessOverviewCard from './components/BusinessOverviewCard.vue'
 import ProductServiceCard from './components/ProductServiceCard.vue'
 import RiskFactorCard from './components/RiskFactorCard.vue'
 import FuturePlanCard from './components/FuturePlanCard.vue'
+import RevenueTableCard from './components/RevenueTableCard.vue'
 import SectionContainer from './components/SectionContainer.vue'
 
 // Import all company data files
@@ -126,6 +127,22 @@ onMounted(() => {
               :name="product.product_service_name"
               :summary="product.summary"
               :details="product.details"
+            />
+          </template>
+        </SectionContainer>
+
+        <!-- Revenue Tables Section -->
+        <SectionContainer
+          v-if="companyData.revenues && companyData.revenues.length > 0"
+          title="Revenue Information"
+        >
+          <template
+            v-for="(revenueTable, index) in companyData.revenues"
+            :key="index"
+          >
+            <RevenueTableCard
+              :table-title="revenueTable.table_title"
+              :items="revenueTable.revenue_items"
             />
           </template>
         </SectionContainer>
